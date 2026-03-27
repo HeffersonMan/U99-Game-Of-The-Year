@@ -1,7 +1,0 @@
-<title>%Title%</title>
-</head>
-<frameset cols="205,*" rows="*" border="0">
-  <frame src="%IndexURI%" name="index" noresize frameborder="0">
-  <frame src="%MainURI%" name="main">
-</frameset>
-</html>
