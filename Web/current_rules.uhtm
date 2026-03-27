@@ -1,0 +1,23 @@
+<title>%Title%</title>
+</head>
+<body>
+<form method="post" action="%PostAction%">
+  <table width="300" border="0" cellpadding="0">
+    <tr>
+      <td>Max Players</td>
+      <td width="1%%"><input type="text" name="MaxPlayers" maxlength="3" size="3" value="%MaxPlayers%"></td>
+    </tr>
+    <tr>
+      <td>Max Spectators</td>
+      <td width="1%%"><input type="text" name="MaxSpectators" maxlength="3" size="3" value="%MaxSpectators%"></td>
+    </tr>
+<tr><td nowrap width="1%%">Game Password</td><td><input type="text" name="GamePassword" size="25" value="%GamePassword%"></td></tr>
+
+<tr>
+    <td nowrap>Mute Spectators</td>
+    <td><input type="checkbox" name="MuteSpectators" value="true"%MuteSpectators%></td>
+    <tr align="right"><td colspan="5"><input type="submit" name="Apply" value="Apply"></td></tr>
+  </table>
+</form>
+</body>
+</html>

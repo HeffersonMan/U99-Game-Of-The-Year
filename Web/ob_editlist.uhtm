@@ -1,0 +1,67 @@
+<title>%Title%</title>
+</head>
+
+<SCRIPT TYPE="text/javascript">
+<!--
+
+function generate_data()
+{
+        var AnOption;
+        var cnt;
+
+        re = /\s/
+        Items = document.inForm.EditList.value.split(re);
+        cnt = 0;
+        for (var i = 0; i < Items.length; i++)
+                {
+                var TestString = Items[i].split(",");
+                if ((TestString[0] == "DENY") || (TestString[0] == "ACCEPT"))
+                        {
+                        AnOption = new Option("", Items[i])
+                        eval("document.outForm.AddressData.options[cnt] = AnOption")
+                        document.outForm.AddressData.options[cnt].selected=true
+                        cnt++;
+                        }
+                }
+        document.outForm.Check.value = "";
+        return true
+}
+//-->
+</SCRIPT>
+
+<body bgcolor="#FFFFFF">
+
+<b>%SmallTitle%</b>
+<br>
+%Title%
+
+<noscript>
+Your browser does not support scripting<br>
+DO NOT hit 'Apply' if you value your data
+</noscript>
+<form name="inForm")>
+<table cellpadding=10>
+<tr><td>
+  <textarea name="EditList" rows="13" cols="24" wrap="hard">%EditListData%</textarea>
+  </td>
+  <td>
+  <p>Ensure each line is of this format:
+  <p>"ACCEPT,xxx.xxx.xxx.xxx"
+  <p>or
+  <p>"DENY,xxx.xxx.xxx.xxx"
+  <p>No spaces, and anything not conforming to this format will be ignored
+  </td>
+  </tr>
+ </table>
+</form>
+
+<form name="outForm" method="POST" action="%PostAction%" onSubmit="return generate_data()")>
+  <p><SELECT style="visibility:hidden" NAME="AddressData" multiple size="1"></SELECT>
+  <input type="submit" value="Apply" name="Apply"></p>
+  <noscript>
+  <input type="hidden" value="NotOK" name="Check">
+  </noscript>
+</form>
+</body>
+</html>
+

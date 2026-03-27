@@ -1,0 +1,67 @@
+<html>
+<head>
+<title>Jailbreak Server Admin: Defaults: Rules</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body bgcolor="#FFFFFF">
+<form method="post" action="%PostAction%">
+  <input type="hidden" name="GameType" value="%GameType%">
+  <input type="hidden" name="Action" value="Update">
+  <table width="300" border="0">
+    <tr> 
+      <td>Max Captures</td>
+      <td width="1%%"><input type="text" name="TeamScore" maxlength="3" size="3" value="%TeamScore%"></td>
+    </tr>
+    <tr> 
+      <td>Time Limit</td>
+      <td width="1%%"><input type="text" name="TimeLimit" maxlength="3" size="3" value="%TimeLimit%"> min</td>
+    </tr>
+    <tr> 
+      <td>Capture Time Limit</td>
+      <td width="1%%"><input type="text" name="CapTime" maxlength="3" size="3" value="%CapTime%"> min</td>
+    </tr>
+    <tr><td><br></td></tr>
+    <tr>
+      <td>Team Balance</td>
+      <td width="1%%">
+        <select size=1 name="TeamBalance">
+          <option value="None"%TeamBalanceNone%>None</option>
+          <option value="Numbers"%TeamBalanceNumbers%>By Size</option>
+          <option value="NumbersBot"%TeamBalanceNumbersBot%>By Size (Bot-Supported)</option>
+          <option value="Clans"%TeamBalanceClans%>By Clans</option>
+          <option value="Skill"%TeamBalanceSkill%>By Skill</option>
+        </select>
+      </td>
+    </tr>
+    <tr> 
+      <td>Max Connections</td>
+      <td width="1%%"><input type="text" name="MaxPlayers" maxlength="3" size="3" value="%MaxPlayers%"></td>
+    </tr>
+    <tr>
+      <td>Max Spectators</td>
+      <td width="1%%"><input type="text" name="MaxSpectators" maxlength="3" size="3" value="%MaxSpectators%"></td>
+    </tr>
+    <tr><td><br></td></tr>
+    <tr>
+      <td>Friendly Fire</td>
+      <td width="1%%"><input type="text" name="FriendlyFire" maxlength="3" size="3" value="%FriendlyFire%"> %%</td>
+    </tr>
+    <tr> 
+      <td>Weapons Stay</td>
+      <td width="1%%"><input type="checkbox" name="WeaponsStay"%WeaponsStay%></td>
+    </tr>
+    <tr>
+      <td>Tournament</td>
+      <td width="1%%"> 
+        <div align="left"> 
+          <input type="checkbox" name="Tournament"%Tournament%>
+        </div>
+      </td>
+    </tr>
+	<tr><td colspan="2">&nbsp;</td></tr>
+    <tr><td></td><td><input type="submit" name="Apply" value="Apply"></td></tr>
+  </table>
+</form>
+</body>
+</html>

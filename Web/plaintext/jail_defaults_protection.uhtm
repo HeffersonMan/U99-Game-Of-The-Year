@@ -1,0 +1,59 @@
+<html>
+<head>
+<title>Jailbreak Server Admin: Defaults: Release Protection</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body bgcolor="#FFFFFF">
+<form method="post" action="%PostAction%">
+  <input type="hidden" name="GameType" value="%GameType%">
+  <input type="hidden" name="Action" value="Update">
+  <table width="350" border="0">
+    <tr> 
+      <td>Release Protection</td>
+      <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+      <td>
+        <select name="Protection">
+          <option value="none"%protectionnone%>None</option>
+          <option value="invincible"%protectioninvincible%>Invincible</option>
+          <option value="llamaize"%protectionllamaize%>Invincible/Llamaize</option>
+        </select>
+      </td>
+    </tr>
+    <tr><td><br></td></tr>
+    <tr> 
+      <td colspan=3>Drop Release Protection after</td>
+    </tr> 
+    <tr><td><br></td></tr>
+    <tr> 
+      <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Time Limit</td>
+      <td></td>
+      <td>
+        <input type="text" name="TimeMax" maxlength="3" size="3" value="%TimeMax%"> sec
+      </td>
+    </tr>
+    <tr> 
+      <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Taking a Weapon</td>
+      <td></td>
+      <td>
+        <input type="text" name="TimePickup" maxlength="3" size="3" value="%TimePickup%"> sec
+      </td>
+    </tr>
+    <tr> 
+      <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Using a Weapon</td>
+      <td></td>
+      <td>
+        <input type="checkbox" name="WeaponUse"%WeaponUse%>
+      </td>
+    </tr>
+	<tr><td colspan="3">&nbsp;</td></tr>
+    <tr> 
+      <td colspan=2></td>
+      <td> 
+        <input type="submit" name="Apply" value="Apply">
+      </td>
+    </tr>
+  </table>
+</form>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<html>
+<head>
+<title>Jailbreak Server Admin: Defaults: Respawn Pickups after Capture</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body bgcolor="#FFFFFF">
+<form method="post" action="%PostAction%">
+  <input type="hidden" name="GameType" value="%GameType%">
+  <input type="hidden" name="Action" value="Update">
+  <table width="300" border="0">
+    <tr> 
+      <td>Health</td>
+      <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+      <td><small>Vials, Med Boxes</small></td>
+      <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+      <td>
+        <input type="checkbox" name="RespawnHealth"%RespawnHealth%>
+      </td>
+    </tr>
+    <tr> 
+      <td>Weapons</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>
+        <input type="checkbox" name="RespawnWeapon"%RespawnWeapon%>
+      </td>
+    </tr>
+    <tr> 
+      <td>Ammunition</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>
+        <input type="checkbox" name="RespawnAmmo"%RespawnAmmo%>
+      </td>
+    </tr>
+    <tr> 
+      <td>Armor</td>
+      <td></td>
+      <td><small>Vests, Thigh Pads</small></td>
+      <td></td>
+      <td>
+        <input type="checkbox" name="RespawnArmor"%RespawnArmor%>
+      </td>
+    </tr>
+    <tr> 
+      <td>Powerups</td>
+      <td></td>
+      <td><small>Invisibility, Shield, Damage</small></td>
+      <td></td>
+      <td>
+        <input type="checkbox" name="RespawnPowerup"%RespawnPowerup%>
+      </td>
+    </tr>
+	<tr><td colspan="5">&nbsp;</td></tr>
+    <tr align="right"> 
+      <td colspan="5"> 
+        <input type="submit" name="Apply" value="Apply">
+      </td>
+    </tr>
+  </table>
+</form>
+</body>
+</html>

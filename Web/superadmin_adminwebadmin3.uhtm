@@ -1,0 +1,36 @@
+<title>%Title%</title>
+</head>
+<body>
+Edit a user
+
+<form method="post" action="%PostAction%">
+  <input type="hidden" name=Username value="%Username%">
+  <table width="300" border="0">
+  <tr>
+  <td>Username</td><td>%Username%</td>
+  </tr>
+  <tr>
+  <td>Password</td><td><input type="password" name="Password" maxlength="" size="20" value="%Password%"></td>
+  </tr>
+  <tr>
+  <td>Confirm Password</td><td><input type="password" name="ConfPassword" maxlength="" size="20" value="%ConfPassword%"></td>
+  </tr>
+  <tr><td>&nbsp</td></tr>
+  <tr><td>&nbsp</td></tr>
+  <tr><td>Privileges</td></tr>
+  <tr>
+    <td>
+    <input type="radio" name="Priv" value="1" %1%>PublicModerator<br>
+    <input type="radio" name="Priv" value="2" %2%>PublicAdmin<br>
+    <input type="radio" name="Priv" value="3" %3%>ServerModerator<br>
+    <input type="radio" name="Priv" value="4" %4%>ServerAdmin<br>
+    <input type="radio" name="Priv" value="5" %5%>SuperAdmin<br>
+    </td>
+  </tr>
+  <tr>
+  <td align="right" colspan="5"><input type="submit" name="EditApply" value="Apply"></td>
+  </tr>
+  </table>
+</form>
+</body>
+</html>

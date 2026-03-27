@@ -1,0 +1,50 @@
+<html>
+<head>
+<title>Jailbreak Server Admin: Defaults: Settings</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body bgcolor="#FFFFFF">
+<form method="post" action="%PostAction%">
+  <input type="hidden" name="GameType" value="%GameType%">
+  <input type="hidden" name="Action" value="Update">
+  <table width="300" border="0">
+    <tr> 
+      <td>Game Style</td>
+      <td> 
+        <select name="GameStyle">
+          <option value="0"%Normal%>Normal</option>
+          <option value="1"%Hardcore%>Hardcore</option>
+          <option value="2"%Turbo%>Turbo</option>
+        </select>
+      </td>
+    </tr>
+    <tr> 
+      <td>Game Speed</td>
+      <td>
+        <input type="text" name="GameSpeed" maxlength="3" size="3" value="%GameSpeed%"> %%
+      </td>
+    </tr>
+    <tr> 
+      <td>Air Control</td>
+      <td>
+        <input type="text" name="AirControl" maxlength="3" size="3" value="%AirControl%"> %%
+      </td>
+    </tr>
+    <tr> 
+      <td>Translocator Delay</td>
+      <td>
+        <input type="text" name="TranslocDelay" maxlength="3" size="3" value="%TranslocDelay%"> sec
+      </td>
+    </tr>
+	<tr><td colspan="2">&nbsp;</td></tr>
+    <tr>
+      <td></td>
+      <td> 
+        <input type="submit" name="Apply" value="Apply">
+      </td>
+    </tr>
+  </table>
+</form>
+</body>
+</html>

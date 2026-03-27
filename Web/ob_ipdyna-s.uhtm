@@ -1,0 +1,20 @@
+<tr>
+  <form method="post" action="%PostAction%">
+  <td>
+    <input type="Submit" align="right" name="Update" value="New">
+  </td>
+  <td>
+    <input type="text" name="IPMask" size="15">
+  </td>
+  <td>
+    <input type="text" name="DayCount" size="4" value="%DayCount%">
+    <input type="text" name="MapCount" size="4" value="%MapCount%">
+  </td>
+  </td>
+  <td>
+    <input type="text" name="Comment" size="20" value="%Comment%">
+  </td>
+  <td>
+  </td>
+  </form>
+</tr>

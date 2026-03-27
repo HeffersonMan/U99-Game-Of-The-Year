@@ -1,0 +1,14 @@
+<title>%Title%</title>
+</head>
+<body id="leftmenu">
+<table width="100%%" border="0" align="center">
+  <tr align="center"><td class="%ServerClass%"><a href="%ServerURI%" target="_parent"><b>Server</b></a></td></tr>
+  <tr align="center"><td class="%WebAdminClass%"><a href="%WebAdminURI%" target="_parent"><b>WebAdmin UserList</b></a></td></tr>
+  <tr align="center"><td class="%QuickSetConfigClass%"><a href="%QuickSetConfigURI%" target="_parent"><b>QuickSet Config</b></a></td></tr>
+%MvrConfig%
+%OPBanOptions%
+  <tr><td>&nbsp;</td></tr>
+<tr align="center"><td class="%RestartClass%"><a href="%RestartURI%" target="_parent"><b>Restart Level</b></a></td></tr>
+</table>
+<br></body>
+</html>

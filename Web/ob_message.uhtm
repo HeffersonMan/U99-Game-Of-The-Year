@@ -1,0 +1,9 @@
+<title>%Title%</title>
+</head>
+<body>
+<b>%SmallTitle%</b><br>
+%Title%
+<br><br>
+%Message%
+</body>
+</html>

@@ -1,0 +1,23 @@
+<title>%Title%</title>
+</head>
+<body bgcolor="#FFFFFF">
+<form method="post" action="%PostAction%">
+  <table width="300" border="0">
+    <tr><td nowrap width="1%%">Use server .ini</td><td><input type="checkbox" name="UseSysIni" value="true"%UseSysIni%></td></tr>
+    <TR><TD NOWRAP><FONT SIZE="-1">(%IniLock%)</FONT></TD></TR>
+    <TR><TD><BR> </TD></TR>
+    <tr><td nowrap width="1%%">Cleanup UT Policy</td><td><input type="checkbox" name="DoCleanup" value="true"%DoCleanup%></td></tr>
+    <TR><TD><BR> </TD></TR>
+    <tr><td nowrap width="1%%">Kick Players</td><td><input type="checkbox" name="DoKick" value="true"%DoKick%></td></tr>
+    <tr><td nowrap width="1%%">Announce Kicks</td><td><input type="checkbox" name="DoAnnounce" value="true"%DoAnnounce%></td></tr>
+    <TR><TD><BR> </TD></TR>
+    <TR><TD nowrap><B>Automaton Security:</B><BR><FONT SIZE="-1">(Leave empty to disable)</FONT></TD></tr>
+    <tr><td nowrap width="1%%">Automaton Name</td><td><input type="text" name="AutoName" size="15" value="%AutoName%"></td></tr>
+    <tr><td nowrap width="1%%">Automaton Password</td><td><input type="text" name="AutoPass" size="15" value="%AutoPass%"></td></tr>
+    <TR><TD><BR> </TD></TR>
+    <tr><TD></TD><td colspan="1" align="left"><input type="submit" name="Apply" value="Apply"></td></tr>
+  </table>
+</form>
+</table>
+</body>
+</html>

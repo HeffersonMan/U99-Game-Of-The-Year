@@ -1,0 +1,28 @@
+<html>
+<head>
+<title>Jailbreak III Server Stats</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<body text="#e0e0e0" link="#0080ff" vlink="#0080ff" bgcolor="black">
+<p align="center"><big><big><big>Jailbreak III</big></big></big></p>
+<p align="center"><a href="unreal://%serverip%">Click here to join this game</a></p>
+<br><br>
+
+<table align="center" width=640 border=0 cellpadding=0 cellspacing=0>
+  <tr>
+    <td colspan=2><b><big>Red Team</big></b></td>
+    <td align=right><big>%teamscorered%</big></td>
+    <td width=40></td>
+    <td colspan=2><b><big>Blue Team</big></b></td>
+    <td align=right><big>%teamscoreblue%</big></td>
+  </tr>
+  <tr><td><br></td></tr>
+  
+  %playerlist%
+</table>
+
+<br><br>
+%mutatorlist%
+<p align="center"><small>%mapname% on %servername%<br>%limitinfo%<br>%elapsedinfo%</small></p>
+
+</body>
+</html>
